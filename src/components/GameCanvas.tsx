@@ -908,7 +908,7 @@ export default function GameCanvas({
           const absoluteAngle = Math.atan2(distanceY, distanceX); // direction towards player
 
           // Evaluate Ground logic relative to current gravity
-          if (gravityDir.current === 'down' && py < 0 && Math.abs(p.vx) > 0.1) p.isGrounded = true;
+          if (gravityDir.current === 'down' && py < 0) p.isGrounded = true;
           if (gravityDir.current === 'up' && py > 0) p.isGrounded = true;
           if (gravityDir.current === 'left' && px > 0) p.isGrounded = true;
           if (gravityDir.current === 'right' && px < 0) p.isGrounded = true;

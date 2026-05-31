@@ -1,0 +1,6 @@
+{
+  "name": "Gravity Shift",
+  "description": "An advanced 2D physics puzzle-platformer with gravity manipulation, world rotation, obstacles, and neon sci-fi puzzle chambers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
